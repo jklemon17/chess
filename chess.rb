@@ -267,6 +267,10 @@ class GameBoard
   end
 
   def save
+    @pieces.each_pair do |key, value|
+      next if value == nil
+      value.moves=[] #reduce savegame file size
+    end
     File.open('savegame', 'w') {|f| f.write(YAML.dump(self)) }
     puts "Game saved."
     prompt

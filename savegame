@@ -52,15 +52,7 @@ pieces:
     position:
     - 5
     - 6
-    moves:
-    - - 5
-      - 5
-    - - 4
-      - 5
-    - - 6
-      - 5
-    - - 5
-      - 4
+    moves: []
     char: bP
   ? - 6
     - 6
@@ -90,35 +82,7 @@ pieces:
     position:
     - 5
     - 0
-    moves:
-    - - 0
-      - 0
-    - - 1
-      - 0
-    - - 2
-      - 0
-    - - 3
-      - 0
-    - - 4
-      - 0
-    - - 6
-      - 0
-    - - 5
-      - 1
-    - - 7
-      - 0
-    - - 5
-      - 2
-    - - 5
-      - 3
-    - - 5
-      - 4
-    - - 5
-      - 5
-    - - 5
-      - 6
-    - - 5
-      - 7
+    moves: []
     char: bR
   ? - 6
     - 0
@@ -139,23 +103,7 @@ pieces:
     position:
     - 2
     - 1
-    moves:
-    - - 1
-      - 0
-    - - 1
-      - 1
-    - - 1
-      - 2
-    - - 2
-      - 0
-    - - 2
-      - 2
-    - - 3
-      - 0
-    - - 3
-      - 1
-    - - 3
-      - 2
+    moves: []
     char: wK
   ? - 3
     - 1
@@ -194,13 +142,7 @@ pieces:
     position:
     - 5
     - 5
-    moves:
-    - - 5
-      - 4
-    - - 4
-      - 4
-    - - 6
-      - 4
+    moves: []
     char: bP
   ? - 5
     - 3
@@ -230,23 +172,7 @@ pieces:
     position:
     - 1
     - 4
-    moves:
-    - - 0
-      - 3
-    - - 0
-      - 4
-    - - 0
-      - 5
-    - - 1
-      - 3
-    - - 1
-      - 5
-    - - 2
-      - 3
-    - - 2
-      - 4
-    - - 2
-      - 5
+    moves: []
     char: bK
   ? - 1
     - 3
@@ -269,13 +195,7 @@ pieces:
   : !ruby/object:Pawn
     color: white
     position: *1
-    moves:
-    - - 4
-      - 4
-    - - 3
-      - 4
-    - - 5
-      - 4
+    moves: []
     char: wP
   ? &2
   - 0
@@ -283,13 +203,7 @@ pieces:
   : !ruby/object:Pawn
     color: white
     position: *2
-    moves:
-    - - 0
-      - 3
-    - - -1
-      - 3
-    - - 1
-      - 3
+    moves: []
     char: wP
   ? - 0
     - 4
@@ -300,13 +214,7 @@ pieces:
   : !ruby/object:Pawn
     color: black
     position: *3
-    moves:
-    - - 3
-      - 4
-    - - 2
-      - 4
-    - - 4
-      - 4
+    moves: []
     char: bP
   ? &4
   - 0
@@ -314,13 +222,7 @@ pieces:
   : !ruby/object:Pawn
     color: black
     position: *4
-    moves:
-    - - 0
-      - 2
-    - - -1
-      - 2
-    - - 1
-      - 2
+    moves: []
     char: bP
   ? - 2
     - 5
@@ -331,23 +233,7 @@ pieces:
   : !ruby/object:Knight
     color: white
     position: *5
-    moves:
-    - - 1
-      - 1
-    - - 1
-      - 3
-    - - 2
-      - 0
-    - - 2
-      - 4
-    - - 4
-      - 0
-    - - 4
-      - 4
-    - - 5
-      - 1
-    - - 5
-      - 3
+    moves: []
     char: wN
 kings:
 - *6
